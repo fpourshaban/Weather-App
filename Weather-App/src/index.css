@@ -1,0 +1,106 @@
+body{
+  background-color: rgb(220, 236, 249);
+  font-family: Roboto ;
+  
+}
+p{
+  font-size: 16px ;
+  margin: 5%;
+}
+#container{
+  background-color: rgb(0, 208, 255);
+  width: 80%;
+  margin: 5% auto;
+  border-radius: 10px;
+  text-align: center;
+  padding-bottom: 5px;
+}
+#title{
+  font-size: 50px;
+  color: rgb(39, 35, 160);
+  
+
+}
+#search{
+  margin: 0;
+  
+}
+#search input, button{
+  border: none;
+  padding: 1%;
+  margin: 0 1%;
+  border-radius: 5px;
+}
+
+#description{
+  width: 80%;
+  margin:  5% auto;
+  display: flex;
+  flex-basis: 50%;
+  box-sizing: border-box;
+}
+#weather-icon{
+  flex: 1;
+  
+  }
+#details{
+  flex: 1;
+  padding: 5px 0%;
+  text-align: left;
+}
+#temp{
+  font-size: 50px;
+  color: white;
+  
+  
+}
+
+.icon{
+  
+  width: 80%;
+  height: 100px;
+  margin: 5% auto ;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#scattered_clouds{
+  
+  background-image: url("../images/storm.png");
+  
+}
+#broken_clouds
+{
+  background-image: url("../images/network.png");
+}
+#light_rain
+{
+  background-image: url("../images/rainy-day.png");
+}
+#snow
+{
+  background-image: url("../images/snow.png");
+}
+#few_clouds
+{
+  background-image: url("../images/cloudy.png");
+}
+#clear_sky
+{
+  background-image: url("../images/sun.png");
+}
+#overcast_clouds{
+  
+  background-image: url("../images/cloud.png");
+  
+}
+#more{
+  
+  font-size: 12px;
+  background: none;
+  
+}
+#more :hover{
+  text-decoration: line;
+  color: white;
+}

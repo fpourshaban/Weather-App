@@ -1,0 +1,22 @@
+#forecast_box{
+    width: 90%;
+    margin: auto;
+    
+    height: 200px;
+    display: flex;
+    scroll-behavior: smooth;
+    overflow-x: auto;
+}
+#fc_temp{
+    font-size: 20px;
+    
+}
+#box{
+    flex: 1;
+    justify-content: space-between;
+    margin: 10px;
+    
+}
+#forecast_box::-webkit-scrollbar {
+    display: none; 
+  }
